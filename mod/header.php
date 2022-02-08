@@ -30,30 +30,22 @@
                    <h5><a href="#">iniciar sesión</a></h5>                
                 </div>
                 <div class="row dropdown">
-                        <button class="btn btn-default dropdown-toggle marron" 
+                        <button class="btn btn-default dropdown-toggle" style="color:white;" 
                                 type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" 
                                 aria-expanded="false">
                             MENU
                         </button>
-                        <ul class="dropdown-menu fondomarron" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="index.php">INICIO</a></li>
-                            <li><a class="dropdown-item" href="#exposicion">EXPOSICION</a></li>
-                            <li><a class="dropdown-item" href="#">CLASES</a></li>
-                            <li><a class="dropdown-item" href="#contacto">CONTACTO</a></li>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item marron" href="index.php">INICIO</a></li>
+                            <li><a class="dropdown-item marron" href="#exposicion">EXPOSICION</a></li>
+                            <li><a class="dropdown-item marron" href="#">CLASES</a></li>
+                            <li><a class="dropdown-item marron" href="#contacto">CONTACTO</a></li>
                         </ul>
                         </div>
 
             </div>
 
 
-
-
-
-                 <div class="pantallasPequenas" style="margin:auto;" id="nav">
-                     
-                    
-
-                 </div>
 
 
 
