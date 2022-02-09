@@ -1,10 +1,11 @@
 console.log("enlace proyecto.js");
-
+/*
 $('#prueba').html("prueba");
 
 $('#selectorAlumno').change(mostrar());
 $('#formularioContacto').submit(enviarMail());
-
+*/
+/*
 function mostrar(){
 
     $.ajax({
@@ -17,7 +18,8 @@ function mostrar(){
 
             
           };
-
+*/
+/*
 function comprobar(){
 
    $.ajax({
@@ -31,9 +33,10 @@ function comprobar(){
     })
 
   };
-
+*/
 //$('#btnRegistrar').click(comprobarPassIguales());
 //$('#registroInputPasswordRepeat').blur(comprobarPassIguales());
+/*
 function comprobarPassIguales(){
   console.log('pulsado Registrar');
   email=$('#registroInputEmail').val();
@@ -46,16 +49,16 @@ function comprobarPassIguales(){
 
   console.log(pass1,pass2,email);
 }
+*/
 
-
-
+/*
 //TO DO ajax a contacto.php y aviso al usuario de success o error
 function enviarMail(){
 $('#mensajeEnviado').css('display','block');
 setTimeout(function(){$('#mensajeEnviado').css('display','none');},2000);
 }
 
-
+*/
 
 
 
