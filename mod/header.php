@@ -9,9 +9,9 @@
                 <div class="col-7 text-center" id="nav">
                     <ul>
                         <li class="btn btn-default"><a href="index.php">INICIO</a></li>
-                        <li class="btn btn-default"><a href="#exposicion">EXPOSICION</a></li>
+                        <li class="btn btn-default"><a href="exposicion.php">EXPOSICION</a></li>
                         <li class="btn btn-default"><a href="#">CLASES</a></li>
-                        <li class="btn btn-default"><a href="#contacto">CONTACTO</a></li>   
+                        <li class="btn btn-default"><a href="contacto.php">CONTACTO</a></li>   
                     </ul>
                 </div>
 
