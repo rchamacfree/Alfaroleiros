@@ -2,8 +2,14 @@
         <div class="container pantallasGrandes">
             <div class="row">
 
-                <div class="col-3" id="logo">
-                     <h1><a href="#">Alfaroleiros</a></h1>
+                <div class="col-2" id="logo" style="margin-top:10px;
+                                                    margin-left: -20px;
+                                                    height:120px">
+              
+                <img src="img/alfaroleirosLogo2.png" alt="" height="100" width="120"> 
+                
+                   
+              
                 </div>
 
                 <div class="col-7 text-center" id="nav">
