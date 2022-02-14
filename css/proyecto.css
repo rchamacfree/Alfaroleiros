@@ -28,6 +28,18 @@ header a{
 	margin:auto;
 }
 
+#menuUsuario{
+	font-size: 1.5em;
+    margin-top:40px;
+}
+
+/*
+aside {
+	float: left;
+	width: 20%;
+	margin-right: 30px;
+}*/
+
 .secslider{
 	height: 400px;
 }

@@ -5,7 +5,10 @@ include_once('../inc/funciones.php');
 if (isset($_POST['id']) && !empty($_POST['id'])){
 
 
-        
+  //////////////////////////////////////////////////////////////////////////////////////////////////
+  # TO _ DO   cambiar esto cuando tengamos las variables de sesión por el id o nombre de usuario de sesion
+    $usuario = $_POST['id'];  
+  ///////////////////////////////////////////////////////////////////////////////////////////////      
 
             try{
                $conexion = new mysqli($hn,$un,$pw,$db);
@@ -13,7 +16,9 @@ if (isset($_POST['id']) && !empty($_POST['id'])){
                
                if ($resultado->num_rows == 0){echo "El alumno no ha publicado obras";}
                while($datos =$resultado->fetch_assoc()){
-                  
+               $idObra = $datos['id'];
+              /* echo $idObra;*/
+
               // echo 'id_obra'.$datos["id"].': '.$datos["imagen"].' '.$datos["autor"].'<br>';
               
                 echo '<div class="col mb-3">';
@@ -21,16 +26,19 @@ if (isset($_POST['id']) && !empty($_POST['id'])){
                    echo '<img class="card-img-top" src="img/'.$datos["src"].'" alt="Card image" style="width:100%">';
                     echo '<div class="card-body">';
                     if($datos["disponible"]){
-                        echo '<h4 class="card-title text-center">PVP: '.$datos["precio"].'€</h4>';
-                          echo '<div class="text-center"><a href="#" class="btn fondomarron text-white">RESERVAR</a></div>';
-                          }else{
+                        echo '<h4 class="card-title text-center">PVP: '.$datos["precio"].'</h4>';
+                        echo '<div class="text-center"><button class="btn fondomarron text-white" onclick=reservarObra('.$datos['id'].','.$usuario.')>RESERVAR</button></div>';
+                    }else{
                             echo '<h4 class="card-title text-center">No disponible</h4>';
                           }
+
+
                           echo '</div>';
+
                         echo '</div>';
 
                 echo '</div>';
-              
+
             }
             
 

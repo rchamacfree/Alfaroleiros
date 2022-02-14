@@ -46,7 +46,7 @@
                            // if($resultado->num_rows > 0){
 
                                 while($registro=$resultado->fetch_assoc()){
-                                    echo '<option value="'.htmlspecialchars($registro["id"]).'">'.ucfirst(htmlspecialchars($registro["nombre"])).'</option>';
+                                    echo '<option value="'.htmlspecialchars($registro["id"]).'">'.htmlspecialchars($registro["id"]).'->'.ucfirst(htmlspecialchars($registro["nombre"])).'</option>';
                                     }
                            // }
                       ?>
