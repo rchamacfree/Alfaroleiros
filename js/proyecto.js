@@ -36,7 +36,7 @@ function reservarObra(idObra,idUsuario){
          $.ajax({
                  method: "POST",
                  url: "inc/reservarObra.php",
-                 data: { id: idObra }
+                 data: {id: idObra}
                  }).done(resp =>{
                       console.log('obra reservada por: '+idUsuario);
                       alert('Obra reservada por: '+idUsuario+' el escript enviará un mail al administrador para que prepare la obra para su recogida y un mail al usuario confirmando la reserva.');

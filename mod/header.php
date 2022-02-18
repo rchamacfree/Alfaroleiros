@@ -5,8 +5,10 @@
                 <div class="col-2" id="logo" style="margin-top:10px;
                                                     margin-left: -20px;
                                                     height:120px">
+                                    
+                <a href="index.html"> <img src="img/alfaroleirosLogo2.png" alt="" height="100" width="120"></a>
               
-                <img src="img/alfaroleirosLogo2.png" alt="" height="100" width="120"> 
+               
                 
                    
               
@@ -14,14 +16,14 @@
 
                 <div class="col-7 text-center" id="nav">
                     <ul>
-                        <li class="btn btn-default"><a href="index.php">INICIO</a></li>
+                        <li class="btn btn-default"><a href="inicio.php">INICIO</a></li>
                         <li class="btn btn-default"><a href="exposicion.php">EXPOSICION</a></li>
                         <li class="btn btn-default"><a href="#">CLASES</a></li>
                         <li class="btn btn-default"><a href="contacto.php">CONTACTO</a></li>   
                     </ul>
                 </div>
 
-                <?php include_once('menuUsuario.php'); ?>
+                <?php include_once('menuUsuario.php');?>
            
 
            
@@ -44,7 +46,7 @@
                             MENU
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item marron" href="index.php">INICIO</a></li>
+                            <li><a class="dropdown-item marron" href="inicio.php">INICIO</a></li>
                             <li><a class="dropdown-item marron" href="#exposicion">EXPOSICION</a></li>
                             <li><a class="dropdown-item marron" href="#">CLASES</a></li>
                             <li><a class="dropdown-item marron" href="#contacto">CONTACTO</a></li>
