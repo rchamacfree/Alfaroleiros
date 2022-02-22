@@ -33,12 +33,16 @@ header a{
     margin-top:40px;
 }
 
-/*
-aside {
-	float: left;
-	width: 20%;
-	margin-right: 30px;
-}*/
+.dropdown-toggle{
+	font-size: 1.5em;
+    margin-top:40px;
+}
+
+.dropdown-item a{
+	color:rgb(195, 106, 45);
+}
+
+
 
 .secslider{
 	height: 400px;

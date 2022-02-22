@@ -36,23 +36,25 @@
 <div class="container pantallasPequenas">
                 <div class="row text-center">
                    <h2><a href="#">Alfaroleiros</a></h2>
-                   <h5><a href="#">iniciar sesión</a></h5>                
-                </div>
+                  <!-- <h5><a href="acceso.php">iniciar sesión</a></h5>  -->
+                  <div style="margin-top:-20px">
+                   <?php include('menuUsuario.php');?>              
+                   </div>
 
-                <div class="row dropdown">
-                        <button class="btn btn-default dropdown-toggle" style="color:white;" 
+                <div class="row dropdown" style="float:right;">
+                        <button class="btn btn-default dropdown-toggle" style="color:white; margin-top: -40px;" 
                                 type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" 
                                 aria-expanded="false">
                             MENU
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                             <li><a class="dropdown-item marron" href="inicio.php">INICIO</a></li>
-                            <li><a class="dropdown-item marron" href="#exposicion">EXPOSICION</a></li>
+                            <li><a class="dropdown-item marron" href="exposicion.php">EXPOSICION</a></li>
                             <li><a class="dropdown-item marron" href="#">CLASES</a></li>
-                            <li><a class="dropdown-item marron" href="#contacto">CONTACTO</a></li>
+                            <li><a class="dropdown-item marron" href="contacto.php">CONTACTO</a></li>
                         </ul>
+               </div>
                 </div>
-
 </div>
 
 
