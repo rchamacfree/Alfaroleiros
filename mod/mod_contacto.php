@@ -13,7 +13,7 @@
             <!-- INICIO FORMULARIO HTML
                 podemos validar los campos en php con filter_var
             -->
-            <form method="POST" action="#" id="formularioContacto" class="needs-validation">
+            <form id="formularioContacto">
                 <div class="mb-3">
                     <label for="validarNombre" class="marron">Nombre:<span class="text-danger">*</span></label>
                     <input type="text" class="form-control" id="validarNombre" name="validarNombre" required>    
@@ -36,7 +36,7 @@
                 <textarea class="form-control mb-3" id="validarMensaje" name="validarMensaje" rows="3" min="25" required></textarea>
 
                 <div class="text-end">
-                <button class="btn fondomarron text-white text-end mb-3" type="submit" name="submit">Enviar</button>
+                <button class="btn fondomarron text-white text-end mb-3" type="button" id="enviar" name="submit">Enviar</button>
                 <button class="btn fondomarron text-white mb-3" type="reset" name="reset">Cancelar</button>
                 </div>
                <!-- cambiamos el attr display según el resultado del envío--> 

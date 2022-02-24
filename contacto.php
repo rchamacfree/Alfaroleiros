@@ -47,5 +47,6 @@
 
 <script src="js/proyecto.js"></script>
 <script src="js/slider.js"></script>
+<script src="js/contacto.js"></script>
 </body>
 </html>
