@@ -29,21 +29,24 @@ function mostrarObras(){
 
 
 function reservarObra(idObra,idUsuario){
-  //TO DO  actualmente estoy recibiendo el id del alumno tiene que ser del usuario 
-  // modificar el script reservarObra.php para que use la variable de sesion usuario.
-
-
+  
          $.ajax({
                  method: "POST",
                  url: "inc/reservarObra.php",
-                 data: {id: idObra}
+                 data: {id: idObra,
+                        idUsuario: idUsuario}
                  }).done(resp =>{
                       console.log('obra reservada por: '+idUsuario);
-                      alert('Obra reservada por: '+idUsuario+' el escript enviará un mail al administrador para que prepare la obra para su recogida y un mail al usuario confirmando la reserva.');
+                      alert('Obra reservada por el usuario: '+idUsuario+' el escript enviará un mail al administrador para que prepare la obra para su recogida y un mail al usuario confirmando la reserva.');
                       mostrarObras();
                  })
            
                        
-  }     
+  } ; 
+  
+  
+
+
+
 
 

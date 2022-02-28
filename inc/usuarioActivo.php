@@ -29,7 +29,9 @@ if (isset($_POST['email']) && isset($_POST['pass'])){ // si recibimos email y co
 
     try{
         $conexion = new mysqli($hn,$un,$pw,$db);
-        $res=$conexion->query('SELECT nombre,shaPass,tipoUsuario FROM usuarios WHERE email="'.$email.'"');
+       // $res=$conexion->query('SELECT nombre,shaPass,tipoUsuario FROM usuarios WHERE email="'.$email.'"');
+        $res=$conexion->query('SELECT * FROM usuarios WHERE email="'.$email.'"');
+
         $registro = $res->fetch_assoc();
         
         
@@ -56,8 +58,9 @@ if (isset($_POST['email']) && isset($_POST['pass'])){ // si recibimos email y co
 
                 
                     if ($pass==$dbpass){  //Si coinciden las contraseñas guardamos las variables de session y vamos al index
-                        $_SESSION['usuario']=$registro['nombre'];
-                        $_SESSION['tipoUsuario']=$registro["tipoUsuario"]; 
+                        $_SESSION['usuario']    = $registro['nombre'];
+                        $_SESSION['tipoUsuario']= $registro["tipoUsuario"];
+                        $_SESSION['idUsuario']  = $registro['id']; 
                         echo '<meta http-equiv="refresh" content="0;url=../inicio.php">';
             
                     }else{  //si no coinciden las contraseñas aviso y volvemos a mostrar la página de acceso

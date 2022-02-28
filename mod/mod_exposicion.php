@@ -77,8 +77,6 @@
 </section>
 
 <?php
-  //Cerrar la consulta y la conexión
- // $resultado ->close();
-  ///$conexion ->close();
+
 
 ?>
