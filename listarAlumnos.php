@@ -112,7 +112,7 @@ if($tipoUsuario!="admin"){
                         <a href="#"><i class="bi bi-eye"></i></a><!--script mostrarObras.php-->
                       </td>
                       <td>
-                        <a href="#"><i class="fas fa-user-edit">Modificar</i></a><!-- script modificarAlumno -->
+                        <a href="modificarAlumno.php?id='.$alumno["id"].'"><i class="fas fa-user-edit">Modificar</i></a><!-- script modificarAlumno -->
                         <a href="inc/bajaAlumno.php?id='.$alumno["id"].'"  onclick = "return confirm()"> <i class="fas fa-user-minus">Dar Baja</i></a>     <!-- borrar alumno establece la propiedad activo a false-->
                       </td>
                      ';
