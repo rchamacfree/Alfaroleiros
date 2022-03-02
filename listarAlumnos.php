@@ -62,7 +62,7 @@ if($tipoUsuario!="admin"){
 
 
 
-    <section id="listarAlumnos">
+    <section id="listarAlumnos" style="min-height:450px">
     
            <div class="container">
             
@@ -124,7 +124,7 @@ if($tipoUsuario!="admin"){
                }
                echo '</table>';
                //cerramos la conexion
-               $res->close();
+               $listaAlumnos->close();
                $conexion->close();
             ?>
 
@@ -141,6 +141,7 @@ if($tipoUsuario!="admin"){
 
 
 
+    <?php include_once('mod/footer.php'); ?>
 
 
 
