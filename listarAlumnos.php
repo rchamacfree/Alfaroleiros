@@ -109,7 +109,7 @@ if($tipoUsuario!="admin"){
                         </form>
 
                         <a href="#"><i class="bi bi-dash-lg m-2 float-right"></i></i></a><!--script eliminarObra.php-->
-                        <a href="#"><i class="bi bi-eye"></i></a><!--script mostrarObras.php-->
+                        <a href="listarObrasAlumno.php?id='.$alumno["id"].'&alumno='.ucfirst($alumno["nombre"]).'"><i class="bi bi-eye"></i></a><!--script mostrarObras.php-->
                       </td>
                       <td>
                         <a href="modificarAlumno.php?id='.$alumno["id"].'"><i class="fas fa-user-edit">Modificar</i></a><!-- script modificarAlumno -->

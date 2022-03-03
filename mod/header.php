@@ -18,7 +18,6 @@
                     <ul>
                         <li class="btn btn-default"><a href="inicio.php">INICIO</a></li>
                         <li class="btn btn-default"><a href="exposicion.php">EXPOSICION</a></li>
-                        <li class="btn btn-default"><a href="#">CLASES</a></li>
                         <li class="btn btn-default"><a href="contacto.php">CONTACTO</a></li>   
                     </ul>
                 </div>
@@ -50,7 +49,6 @@
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                             <li><a class="dropdown-item marron" href="inicio.php">INICIO</a></li>
                             <li><a class="dropdown-item marron" href="exposicion.php">EXPOSICION</a></li>
-                            <li><a class="dropdown-item marron" href="#">CLASES</a></li>
                             <li><a class="dropdown-item marron" href="contacto.php">CONTACTO</a></li>
                         </ul>
                </div>

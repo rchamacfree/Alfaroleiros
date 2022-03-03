@@ -33,7 +33,6 @@ $usuario = ucfirst($_SESSION["usuario"]);
                               <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
                                     <li><button class="dropdown-item" type="button"><a href="listarUsuarios.php">Listar Usuarios</a></button></li>
                                     <li><button class="dropdown-item" type="button"><a href="listarAlumnos.php">Listar Alumnos</a></button></li>
-                                    <li><button class="dropdown-item" type="button">Admin Taller</button></li>
                                     <li><button class="dropdown-item" type="button"><a href="inc/cerrarSesion.php">Cerrar Sesión</a></button></li>
                               </ul>
                         </div>
