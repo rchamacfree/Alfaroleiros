@@ -35,7 +35,8 @@ if($tipoUsuario!="admin"){
     <script src="bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="js/jquery-3.6.0.js"></script>
     <script src="https://kit.fontawesome.com/2a4269f435.js" crossorigin="anonymous"></script>
-    <script src="js/proyecto.js"></script>
+    <script src="js/borrarObra.js"></script>
+
 
 </head>
 
@@ -49,7 +50,6 @@ if($tipoUsuario!="admin"){
     ?>
 
     
-<script src="js/proyecto.js"></script>
 
 </body>
 </html>

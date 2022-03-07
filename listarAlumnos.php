@@ -51,7 +51,6 @@ if($tipoUsuario!="admin"){
     <script src="bootstrap/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="js/jquery-3.6.0.js"></script>
     <script src="https://kit.fontawesome.com/2a4269f435.js" crossorigin="anonymous"></script>
-    <script src="js/proyecto.js"></script>
 
 </head>
 
@@ -108,7 +107,6 @@ if($tipoUsuario!="admin"){
                               </button>
                         </form>
 
-                        <a href="#"><i class="bi bi-dash-lg m-2 float-right"></i></i></a><!--script eliminarObra.php-->
                         <a href="listarObrasAlumno.php?id='.$alumno["id"].'&alumno='.ucfirst($alumno["nombre"]).'"><i class="bi bi-eye"></i></a><!--script mostrarObras.php-->
                       </td>
                       <td>
@@ -145,7 +143,6 @@ if($tipoUsuario!="admin"){
 
 
 
-<script src="js/proyecto.js"></script>
 
 </body>
 </html>

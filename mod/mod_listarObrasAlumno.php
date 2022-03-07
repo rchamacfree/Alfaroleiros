@@ -43,6 +43,7 @@
               <th scope="col">img</th>
               <th scope="col">Precio</th>
               <th scope="col">Reservada por usuario:</th>
+              <th scope="col">Opciones</th>
             </tr>
           </thead>
           <tbody>
@@ -55,7 +56,8 @@
                 echo '<td><img src="img/'.$obra["src"].'" width="50"</td>';
 
                 echo '<td>'.$obra["precio"].'€</td>';
-                echo '<td>'.$obra["comprador"].'</td>';               
+                echo '<td>'.$obra["comprador"].'</td>';   
+                echo '<td><button class="btn btn-default text-white fondomarron" id="borrarObra" onclick="borrarObra('.$obra["id"].')">borrar obra</button></td>';            
                 echo '<tr>';
                 
                }
@@ -74,7 +76,7 @@
     </div>
     <div class="container">
         <div class="col float-end">
-            <a href="listarAlumnos.php" class="btn btn-primary fondomarron">Volver</a>
+            <a href="listarAlumnos.php" class="btn btn-default text-white fondomarron">Volver</a>
         </div>
     </div>
 
