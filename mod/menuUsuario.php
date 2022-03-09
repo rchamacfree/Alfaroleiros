@@ -4,6 +4,7 @@ session_start();
 //TO DO obtener tipo usuario por una variable de sesion.
 $tipoUsuario=$_SESSION['tipoUsuario'];
 $usuario = ucfirst($_SESSION["usuario"]);
+//echo $tipoUsuario;
 ?>
                
                
@@ -53,7 +54,7 @@ $usuario = ucfirst($_SESSION["usuario"]);
                               </button>';
                         echo<<<_INIT
                               <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                    <li><button class="dropdown-item" type="button">Ver Pedidos</button></li>
+                                    <li><button class="dropdown-item" type="button"><a href="verPedidos.php">Ver pedidos</a></button></li>
                                     <li><button class="dropdown-item" type="button">Modificar Datos</button></li>
                                     <li><button class="dropdown-item" type="button"><a href="inc/cerrarSesion.php">Cerrar Sesión</a></button></li>
                               </ul>
