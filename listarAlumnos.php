@@ -102,6 +102,8 @@ if($tipoUsuario!="admin"){
                       <td>
                         <form action="subirObra.php" method="POST" style="display:inline">
                               <input type="hidden" name="autor" value="'.$alumno["id"].'">
+                              <input type="hidden" name="nombreAutor" value="'.$alumno["nombre"].'">
+
                               <button type="submit" class="btn btn-default">
                               <i class="bi bi-plus-lg"></i><!-- script anadirObra.php -->
                               </button>
@@ -121,11 +123,12 @@ if($tipoUsuario!="admin"){
                  //'<a href="borrado.php?id='.$datos["id_persona"].' onclick= "return confirm()" ></a>;
                }
                echo '</table>';
+
                //cerramos la conexion
                $listaAlumnos->close();
                $conexion->close();
             ?>
-
+          <div class="alert alert-danger" id="aviso" style="display:none">Obra borrada correctamente</div> 
         
 
 

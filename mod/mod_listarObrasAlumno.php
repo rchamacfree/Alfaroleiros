@@ -57,7 +57,7 @@
 
                 echo '<td>'.$obra["precio"].'€</td>';
                 echo '<td>'.$obra["comprador"].'</td>';   
-                echo '<td><button class="btn btn-default text-white fondomarron" id="borrarObra" onclick="borrarObra('.$obra["id"].')">borrar obra</button></td>';            
+                echo '<td><button class="btn btn-default text-white fondomarron"  onclick="borrarObra('.$obra["id"].')">borrar obra</button></td>';            
                 echo '<tr>';
                 
                }
@@ -78,7 +78,14 @@
         <div class="col float-end">
             <a href="listarAlumnos.php" class="btn btn-default text-white fondomarron">Volver</a>
         </div>
+
     </div>
+    <div class="container mt-5">
+      <div class="col-10">
+    <div class="alert alert-danger" id="borrarObra" style="display:none">Obra borrada correctamente</div>
+    </div>
+    </div>
+
 
     <?php
      $listaAlumnos->close();
@@ -91,5 +98,6 @@
 
             
     </div> 
-  
+
+
 </section>
