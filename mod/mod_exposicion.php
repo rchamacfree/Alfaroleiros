@@ -27,7 +27,7 @@
 <h2 class="text-center marron fs-1" style="margin-top:40px;">Exposición</h2>
 
 
-<section  id="exposicion">
+<section  id="exposicion" style="min-height:450px">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6">  <!-- pantallas pequeñas col-12 pantallas >768px col-6 --> 

@@ -18,6 +18,7 @@
                     <ul>
                         <li class="btn btn-default"><a href="inicio.php">INICIO</a></li>
                         <li class="btn btn-default"><a href="exposicion.php">EXPOSICION</a></li>
+                        <li class="btn btn-default"><a href="clases.php">CLASES</a></li>
                         <li class="btn btn-default"><a href="contacto.php">CONTACTO</a></li>   
                     </ul>
                 </div>

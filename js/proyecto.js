@@ -37,7 +37,7 @@ function reservarObra(idObra,idUsuario){
                         idUsuario: idUsuario}
                  }).done(resp =>{
                       console.log('obra reservada por: '+idUsuario);
-                      alert('Obra reservada por el usuario: '+idUsuario+' el escript enviará un mail al administrador para que prepare la obra para su recogida y un mail al usuario confirmando la reserva.');
+                      alert('Obra reservada. Le llegará un email informando la fecha de recogida. Gracias');
                       mostrarObras();
                  })
            

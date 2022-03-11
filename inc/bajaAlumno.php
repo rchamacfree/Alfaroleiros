@@ -36,5 +36,3 @@ if($tipoUsuario!="admin") echo '<meta http-equiv="refresh" content="0;url=../ind
         
         ?>
         
-    </body>
-</html>

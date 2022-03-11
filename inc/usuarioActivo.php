@@ -59,6 +59,9 @@ if (isset($_POST['email']) && isset($_POST['pass'])){ // si recibimos email y co
                 
                     if ($pass==$dbpass){  //Si coinciden las contraseñas guardamos las variables de session y vamos al index
                         $_SESSION['usuario']    = $registro['nombre'];
+                        $_SESSION['apellidos']  = $registro['apellidos'];
+                        $_SESSION['email'] = $registro['email'];
+                        $_SESSION['telefono'] = $registro['telefono'];
                         $_SESSION['tipoUsuario']= $registro["tipoUsuario"];
                         $_SESSION['idUsuario']  = $registro['id']; 
                         echo '<meta http-equiv="refresh" content="0;url=../inicio.php">';
